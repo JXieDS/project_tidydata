@@ -22,6 +22,8 @@ Files deposited in this repo
 A file containing the tidy data set has been submitted directly to Coursera course project page.
 ------------------------------------------------------------------------------------------------
 The .txt file can be read with the R code below.
+
     tidy_data <- read.table("tidy_data_by_JXieDS.txt", header = TRUE)
+
 This tidy data set that meets the tidy data principles, e.g., each variable measured should be in one column and each different observation of that variable should be in a different row.
 The numeric activity_labels are kept along with the descriptive activity names since the numeric labels could serve as a reference to the original data sets.  
